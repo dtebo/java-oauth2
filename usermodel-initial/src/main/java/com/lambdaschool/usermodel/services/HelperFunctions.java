@@ -18,4 +18,5 @@ public interface HelperFunctions
      */
     List<ValidationError> getConstraintViolation(Throwable cause);
 
+    boolean isAuthorizedToMakeChanges(String username);
 }
